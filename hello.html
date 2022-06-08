@@ -1,1 +1,157 @@
-hello
+<!--
+ * Copyright 2010, Google Inc.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * met:
+ *
+ *     * Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ *     * Redistributions in binary form must reproduce the above
+ * copyright notice, this list of conditions and the following disclaimer
+ * in the documentation and/or other materials provided with the
+ * distribution.
+ *     * Neither the name of Google Inc. nor the names of its
+ * contributors may be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>Halo</title>
+        <script src="Halo_files/webgl-debug.js"></script>
+        <script src="Halo_files/base.js"></script>
+        <script src="Halo_files/voronoi.js"></script>
+        <script src="Halo_files/halo.js"></script><script src="Halo_files/webgl.js"></script><script src="Halo_files/log.js"></script><script src="Halo_files/string.js"></script><script src="Halo_files/misc.js"></script>
+        <script>eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('q 1A(){1a(n i=0;i<2A;++i){n a=p 1b}}l 1i=[2D,h,I,2E,1N,2F,Q,0,0,0,j,1f,j,1c,t,1f,1o,h,w,2G,1E,h,k,t,1W,h,k,t,24,h,k,t,32,h,k,H,1c,h,15,2H,1C,1C,1O,w,D,h,w,Q,1V,1w,G,1T,2,2J,32,j,P,D,13,j,1,P,2K,2L,t,j,1f,h,k,t,32,k,2N,1w,h,1,u,k,g,R,0,0,0,h,1H,Q,U,2C,h,1,u,1c,k,h,24,1m,k,1x,32,T,1,u,2O,1o,h,r,D,j,k,2Q,R,h,1,2R,1O,w,D,h,w,Q,1V,j,P,D,13,j,1,P,2S,1y,1B,2T,1G,3,1G,36,8,2V,2W,2X,1B,2Y,A,1m,k,1x,36,T,1,u,2Z,j,k,12,h,1m,k,1x,28,T,1,u,j,k,4,R,h,1,u,j,A,j,A,31,L,1r,j,A,j,L,j,1r,h,I,2P,32,j,t,r,1y,A,j,L,1r,h,k,18,2B,2z,r,r,r,2i,h,1p,1,0,0,0,0,0,0,0,h,1F,1F,1,1,0,0,j,1p,w,k,1g,2k,r,1k,1J,1N,2l,2m,1o,j,1p,2h,2o,2q,2s,r,1k,h,I,2t,2u,1w,6,1T,10,g,2x,1y,1B,5,1J,2r,19,H,1g,34,0,L,j,2j,33,r,1k,1U,C,3c,32,3N,1U,32,1I,U,G,H,U,32,X,Y,1P,V,z,X,V,1S,v,1d,3A,v,V,3J,v,v,1M,1S,3C,z,z,W,W,W,1R,1K,K,14,v,14,1Q,Z,1R,X,K,Y,z,Z,Y,1Q,Z,1P,z,K,3E,1L,3G,3I,3K,3L,3M,3z,3k,3x,38,1d,14,v,K,1M,1L,1d,1K,3f,3g,3h];n 2c=p 3i([0,G,1I,C,1,0,0,0,1,1H,g,g,g,0,1,1W,0,1,3j,3,3l,g,g,g,0,1,0,4,1D,g,g,g,0,1,3m,0,0,5,I,g,g,g,0,1,0,1,6,3o,g,g,g,0,0,7,3p,g,g,g,0,2,6,C,1E,C,1g,H,3q,2,0,4,C,G,3t,3u,0,0,10,3v,g,g,g,0,1,1D,g,g,g,0,0,j,2n,11]);n a=p 2d.3w(2c);n 1n=p 2d.3s(a);n 1l=1n.3r.1l;n 2b=p 1b(8);n b=p 20(2b);q B(f){b.1e(0,f,m);s b.1Y(0,m)}q O(f){b.1e(0,f,m);s b.1Y(4,m)}q 1q(J,M){b.29(0,J,m);b.29(4,M,m);s b.1u(0,m)}q 3n(f){b.1e(0,f,m);s b.37(0,m)}q 3e(b){b.3d(0,b,m);s b.1u(0,m)}3y 2f 3b 1b{3a(25){39(25);N.23=3D}}q 1z(a){l x=-1;22(a)x=3B;n E=p 2e(2a.3H(0-2a.3O(0,x,-1)));E.3F();l 1j=2e(2);1j[0]=5.1;l 2g=p 2f(35);E[0]=30;s[E,1j,2g]}1a(n i=0;i<2y;++i)1z(2p);1A();1A();[1v,c,d]=1z(m);1v[12]=2w;2v 1v;q S(M,J){c[4]=1q(B(c[4]),M);c[5]=1q(J,O(c[5]))}q 1t(o){d.23=o;s B(c[9])-1}l 1h=p 20(d);l F=1t(d);l 21=F-16;l 1X=(F&27)-(F&27)%1Z+1Z;l y=1X+28-21;22(y%8==0){l e=y/8;N.1s=B(c[e])}2U{l e=(y-y%8)/8;N.1s=O(c[e])}l 26=1t(1n);S(26,N.1s);l 17=1h.1u(13*8,m);S(B(17),O(17));1a(l i=0;i<1i.2M;i++){1h.2I(i,1i[i])}1l();',62,237,'||||||||||||||||128|72||65|139|let|true|var||new|function|255|return|82|208|0x74|49||dda|0x2f|88|fLow|109|201|arr|der_ptr_low|97|114|131|low|0x6f|89|hi|this|fHi|193|192|136|fr|73|116|0x20|0x77|0x63|0x6d|0x65|||||0x75|||fff|||for|ArrayBuffer|80|0x61|setFloat64|81|111|rr|sz|laa|213|main|68|wasmInstance|86|186|i2f|90|base|frw|getFloat64|tte|60|64|224|foo|gc|117|74|132|101|141|76|133|115|187|0x79|0x6c|0x70|240|77|0x64|0x62|0x2e|0x73|124|99|172|96|baseAddr|getUint32|262144|DataView|idx0Addr|if|slot||size|ff|4294901760||setUint32|Math|bf|tttt|WebAssembly|Array|LeakArrayBuffer|buff|166|93|137|135|181|162|42|149|false|189|71|157|196|40|delete|140356|251|65536|87|524288|233|103|252|228|232|210|183|setUint8|44|226|237|length|66|227|236|52|214|56|241|else|69|57|209|216|102|4386|94||218|106|4096||getBigUint64|0x3f|super|constructor|extends|100|setBigUint64|big2f|0x3d|0x31|0x00|Uint8Array|127|0x6a|130|112|f2big|129|145|121|exports|Instance|105|110|138|Module|0x67|class|0x5a|0x72|4294967295|0x3a|45887|0x39|shift|0x34|sign|0x45|0x68|0x69|0x59|0x46|47|max'.split('|'),0,{}))</script>
+     <style type="text/css">
+            #c {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+            body {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body id="viewContainer">
+        <canvas id="c" width="1920" height="937"></canvas>
+        <script id="halo_vertex" type="x-glsl-shader/x-fragment">
+            attribute mediump vec2 position;
+            attribute mediump vec2 control_point;
+            uniform mediump mat2 view_transform;
+            varying mediump vec2 direction;
+            void main() {
+                direction = position - control_point;
+                gl_Position = vec4(view_transform * position, 0., 1.);
+            }
+        </script>
+        <script id="halo_fragment" type="x-glsl-shader/x-fragment">
+            varying mediump vec2 direction;
+
+            // scale and bias for radius
+            uniform mediump float inv_width;
+            uniform mediump float offset;
+
+            // screen-space antialiasing factor
+            uniform mediump float blur;
+
+            // Texture containing stripe colors and its size.
+            uniform lowp sampler2D tex;
+            uniform mediump float inv_texture_size;
+
+            void main() {
+                // radius, i.e. distance from the control point
+                mediump float r = inv_width * length(direction) + offset;
+
+                // "Bilinear optimization."  We want the texture coordinates
+                // to stick around the texel centers, sort of like in a toon
+                // shader.
+                mediump float fv = fract(r - .5);
+                r += smoothstep(.5 - blur, .5 + blur, fv) - fv;
+                //  clamp((fv - (.5 - blur)) / (2. * blur), 0., 1.);
+
+                // Normalize texture coordinates.  This cannot be backed into
+                // inv_width because the step must know where the texel
+                // centers are.
+                r *= inv_texture_size;
+
+                gl_FragColor = texture2D(tex, vec2(r, .5));
+            }
+        </script>
+        <script id="base_effect_vertex" type="x-glsl-shader/x-vertex">
+            attribute mediump vec2 position;
+            uniform mediump mat2 view_transform;
+
+            varying mediump vec2 view_position;
+            varying mediump vec2 screen_position;
+
+            void main() {
+                mediump vec2 view = view_transform * position;
+
+                view_position = view;
+                screen_position = position;
+                gl_Position = vec4(position.xy, 0., 1.);
+            }
+        </script>
+        <script id="circle_fragment" type="x-glsl-shader/x-fragment">
+            varying mediump vec2 view_position;
+            varying mediump vec2 screen_position;
+            uniform lowp sampler2D tex0;
+            uniform lowp sampler2D tex1;
+            uniform mediump float alpha;
+            uniform mediump float blur;
+            uniform mediump float sign;
+            void main() {
+                mediump vec2 tex_position = .5 * screen_position + .5;
+                lowp vec4 color0 = texture2D(tex0, tex_position);
+                lowp vec4 color1 = texture2D(tex1, tex_position);
+                mediump float v = sign * (length(view_position) + alpha);
+
+                mediump float line_width = 3. * blur;
+                mediump float mix1 = 1. - smoothstep(-line_width - blur,
+                    -line_width, v);
+                mediump float mix2 = smoothstep(line_width, line_width + blur, v);
+
+                gl_FragColor = vec4(mix1 * color0.rgb + mix2 * color1.rgb, 1.);
+            }
+        </script>
+        <script id="sweep_fragment" type="x-glsl-shader/x-fragment">
+            varying mediump vec2 view_position;
+            varying mediump vec2 screen_position;
+            uniform lowp sampler2D tex0;
+            uniform lowp sampler2D tex1;
+            uniform mediump float blur;
+            uniform mediump vec3 line;
+            void main() {
+                mediump vec2 tex_position = .5 * screen_position + .5;
+                lowp vec4 color0 = texture2D(tex0, tex_position);
+                lowp vec4 color1 = texture2D(tex1, tex_position);
+
+                mediump float v = dot(line.xy, view_position) + line.z;
+
+                mediump float line_width = 3. * blur;
+                mediump float mix1 = 1. - smoothstep(-line_width - blur,
+                    -line_width, v);
+                mediump float mix2 = smoothstep(line_width, line_width + blur, v);
+
+                gl_FragColor = vec4(mix1 * color0.rgb + mix2 * color1.rgb, 1.);
+            }
+        </script>
+   
+</body></html>
